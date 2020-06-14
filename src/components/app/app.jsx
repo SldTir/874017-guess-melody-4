@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const App = (props) => {
   const {errorsCount} = props;
   return (
-    <WelcomeScreen props={errorsCount}/>
+    <WelcomeScreen errorsCount={errorsCount}/>
   );
 };
 
