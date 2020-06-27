@@ -7,7 +7,7 @@ configure({adapter: new Adapter()});
 
 const mock = {
   question: {
-    type: `12`,
+    type: `genre`,
     genre: `rock`,
     answers: [
       {
